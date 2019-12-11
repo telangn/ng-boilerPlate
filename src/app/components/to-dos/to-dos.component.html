@@ -1,1 +1,4 @@
 <h1>Hello from to-dos.component.html - {{ name.toUpperCase() }}</h1>
+
+<app-todo-item *ngFor = "let todo of todos" [todo]="todo">
+</app-todo-item>
