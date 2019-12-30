@@ -29,13 +29,13 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  // it(`should have as title 'ng-todolist'`, () => {
-  //   const app = fixture.debugElement.componentInstance;
-  //   expect(app.title).toEqual('ng-todolist');
-  // });
+  xit(`should have as title 'ng-todolist'`, () => {
+    const app = fixture.debugElement.componentInstance;
+    expect(app.title).toEqual('ng-todolist');
+  });
 
-  // it('should render title', () => {
-  //   const compiled = fixture.debugElement.nativeElement;
-  //   expect(compiled.querySelector('.content span').textContent).toContain('ng-todolist app is running!');
-  // });
+  xit('should render title', () => {
+    const compiled = fixture.debugElement.nativeElement;
+    expect(compiled.querySelector('.content span').textContent).toContain('ng-todolist app is running!');
+  });
 });
